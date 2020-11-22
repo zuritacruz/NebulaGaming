@@ -1,0 +1,18 @@
+@media (max-width: 1000px) {
+  
+  /* ------------ Main Section  */
+  .main_section {
+    padding: 4%;
+  }
+
+
+  .product {
+    margin-top: auto;
+  }
+
+  /* ------------ Beneficts Section  */    
+
+  .content_two, .content_three {
+    margin: 30px 20px;
+  }
+}

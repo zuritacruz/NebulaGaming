@@ -1,0 +1,123 @@
+@media (max-width: 900px) {
+  .row {
+    display: inherit;
+  }
+
+  [class*="column_"] {
+    width: 100%;
+  }
+}
+
+:root {
+  --col-width: 8.333333333%;
+}
+
+/* ----------------- Inicia la GRID  */
+
+.container {
+  margin: auto;
+  color: #fff;
+  font-family: fantasy;
+}
+
+.row {
+  display: flex;
+}
+
+.column_1 {
+  width: var(--col-width);
+}
+
+.column_2 {
+  width: calc(var(--col-width) * 2);
+}
+
+.column_3 {
+  width: calc(var(--col-width) * 3);
+}
+
+.column_4 {
+  width: calc(var(--col-width) * 4);
+}
+
+.column_5 {
+  width: calc(var(--col-width) * 5);
+}
+
+.column_6 {
+  width: calc(var(--col-width) * 6);
+}
+
+.column_7 {
+  width: calc(var(--col-width) * 7);
+}
+
+.column_8 {
+  width: calc(var(--col-width) * 8);
+}
+
+.column_9 {
+  width: calc(var(--col-width) * 9);
+}
+
+.column_10 {
+  width: calc(var(--col-width) * 10);
+}
+
+.column_11 {
+  width: calc(var(--col-width) * 11v);
+}
+
+.column_12 {
+  width: 100%;
+}
+
+[class*="column_"] {
+  padding: 30px 50px;
+}
+
+/* ---------------------------- Products style  */
+
+.product.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+[class*="row_"] {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .4);
+  height: auto;
+}
+
+.row_1 {
+  margin-bottom: 50px;
+}
+
+.row h1 {
+  margin-left: 92px;
+}
+
+.column_8 p {
+  text-indent: 15px;
+  text-align: justify;
+}
+
+.column_8 .main_button {
+  position: inherit;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.laptop {
+  transform: scaleX(-1);
+  width: 420px;
+  height: auto;
+}
+
+.desktop {
+  width: 400px;
+  height: auto;
+}
