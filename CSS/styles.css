@@ -263,7 +263,7 @@ footer {
   color: var(--white-color);
   padding: 30px;
   box-shadow: var(--box-shadow);
-  height: 425px;
+  height: 426px;
 }
 
 .img_module img {
@@ -290,7 +290,7 @@ footer {
   color: var(--white-color);
   padding: 30px;
   box-shadow: var(--box-shadow);
-  height: 425px;
+  height: 426px;
 }
 
 label {
@@ -315,4 +315,35 @@ input {
 
 ul {
   line-height: 24px;
+}
+
+/* ----------------------- Payment Results Section  */
+
+.payment_box {
+  background-color: rgba(0, 0, 0, .4);
+  font-size: 18px;
+  padding: 30px;
+}
+
+.payment_result {
+  display: flex;
+  justify-content: center;
+}
+
+.result_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, .8);
+  padding: 30px;
+  height: 426px;
+  width: 65%;
+  color: var(--white-color);
+  text-align: center;
+}
+
+.result_img img {
+  width: 200px;
+  height: auto;
 }
