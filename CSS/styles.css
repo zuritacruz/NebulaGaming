@@ -347,3 +347,12 @@ ul {
   width: 200px;
   height: auto;
 }
+
+.result_content h3 {
+  font-size: 30px;
+}
+
+.result_content p a {
+  font-style: italic;
+  color: rgb(212, 173, 209);
+}
